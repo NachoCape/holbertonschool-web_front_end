@@ -145,7 +145,7 @@ ul.row {
 .row::after {
     content: "";
     display: table;
-    float: unset;
+    clear: both;
 }
 
 .section-body {
