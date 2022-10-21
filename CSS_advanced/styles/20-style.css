@@ -143,9 +143,9 @@ ul.row {
 }
 
 .row::after {
-    content: none;
+    content: "";
     display: table;
-    float: none;
+    float: unset;
 }
 
 .section-body {
